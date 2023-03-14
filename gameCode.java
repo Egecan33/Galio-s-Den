@@ -92,7 +92,7 @@ public class gameCode {
                             System.out.println("2. Exit dungeon");
                             input = in.nextLine();
 
-                                                                while (!input.equals("1") && !input.equals("2")) {
+                            while (!input.equals("1") && !input.equals("2")) {
                                 System.out.println("Invalid command!");
                                 input = in.nextLine();
                             }
@@ -135,8 +135,8 @@ public class gameCode {
                         if (mercy) {
                             System.out.println("\t> Galio has mercy after all, he didn't smash you, that's a relief!");
                             System.out.println(
-                                    "\t> You exit the dungeon with greatful eyes and your score in this run is "
-                                            + gameCount);
+                                    "\t> You exit the dungeon with greatful eyes and your body-count in this run is "
+                                            + gameCount + " and your score is " + gameCount + " !");
 
                             credits();
 
@@ -168,7 +168,7 @@ public class gameCode {
                     System.out.println("\tYour HP: " + health);
                     System.out.println("\t" + enemy + "'s HP: " + enemyHealth);
                     System.out.println(
-                            enemy + "I will become stronger. Have you seen Genos btw.. Today is discount day.");
+                            enemy + " I will become stronger. Have you seen Genos btw.. Today is discount day.");
                     System.out.println("\n\tGo away if you are weak in the head. WHat shall you do now?");
 
                     // Choices
@@ -235,7 +235,7 @@ public class gameCode {
                             System.out.println("\t> You drink a health potion, healing yourself for "
                                     + healthPotionHealAmount + ". " + "\n\t> You now have " + health + " HP."
                                     + "\n\t> You have " + numHealthPotions
-                                    + " health potions left. (I think this was a great idea but are you weak?)\n");
+                                    + " health potions left. (I think this was a great idea but are you weak in head?)\n");
                         }
 
                         else {
