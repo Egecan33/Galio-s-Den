@@ -30,6 +30,9 @@ public class gameCode {
 
         boolean running = true;
 
+        // System.out.println("Want to see the instructions? (y/n)");
+        // instructions();
+
         System.out.println("Welcome to Galio's Den!");
 
         GAME: while (running) {
